@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.12">
+  <diagram name="Page-1" id="_c1A6tktMzz3uYBYGAOh">
+    <mxGraphModel dx="1218" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GHPkus1lnIgXJbdagWlp-1" value="StaffHire" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-2" value="-vacancyNumber : &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 102));&quot;&gt;int&lt;/span&gt;&lt;div&gt;-designation : String&lt;/div&gt;&lt;div&gt;-jobType : String&lt;/div&gt;&lt;div&gt;-staffName : String&lt;/div&gt;&lt;div&gt;-joiningDate : String&lt;/div&gt;&lt;div&gt;-qualification : String&lt;/div&gt;&lt;div&gt;-appointedBy : String&lt;/div&gt;&lt;div&gt;-joined : String&lt;/div&gt;&lt;div&gt;--------------------&lt;/div&gt;&lt;div&gt;+getVacancyNumber()&lt;/div&gt;&lt;div&gt;+getStaffName(name)&lt;/div&gt;&lt;div&gt;+display()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="400" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="680" as="sourcePoint" />
+            <mxPoint x="520" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="680" as="sourcePoint" />
+            <mxPoint x="280" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519" y="680" as="sourcePoint" />
+            <mxPoint x="519" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-7" value="FullTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-8" value="PartTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="730" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-9" value="-salary&lt;div&gt;-weeklyHours&lt;/div&gt;&lt;div&gt;-------------------&lt;/div&gt;&lt;div&gt;+setSalary()&lt;/div&gt;&lt;div&gt;+getSalary()&lt;/div&gt;&lt;div&gt;+display&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="770" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-10" value="-workingHour&lt;div&gt;-wagesPerHour&lt;/div&gt;&lt;div&gt;-shifts&lt;/div&gt;&lt;div&gt;-----------------------&lt;/div&gt;&lt;div&gt;+setShifts()&lt;/div&gt;&lt;div&gt;+display()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="770" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-11" value="RecruitmentSystemGUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283" y="120" width="234" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-12" value="-staffList&lt;div&gt;-GUI Components&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;----------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+addFullTimeStaff()&lt;/div&gt;&lt;div&gt;+addPartTimeStaff()&lt;/div&gt;&lt;div&gt;+displayStaff()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="283" y="160" width="234" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GHPkus1lnIgXJbdagWlp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.29" y="350" as="sourcePoint" />
+            <mxPoint x="399.29" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GHPkus1lnIgXJbdagWlp-14" value="uses&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

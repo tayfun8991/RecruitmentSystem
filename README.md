@@ -34,7 +34,7 @@ This is a simple recruitment system written in Java using Swing GUI. It allows u
    ```
 
 ### Using IDE:
-- Open the project in your IDE (IntelliJ, Eclipse, etc.)
+- Open the project in your IDE (BlueJ, IntelliJ, Eclipse, etc.)
 - Run `RecruitmentSystemGUI.java`
 
 ## Notes
